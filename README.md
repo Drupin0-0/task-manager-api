@@ -27,6 +27,16 @@ Uma API REST construída com Django e Django REST Framework para gerenciamento d
 Este endpoint permite que o usuário faça login e receba um token de autenticação JWT, necessário para acessar os endpoints protegidos da API.
 
 ![Token JWT](docs/token.png)
+
+Ao acessar o endpoint de tarefas com um token válido, o usuário visualiza apenas as tarefas relacionadas a equipes das quais faz parte.
+
+![Tarefas ](docs/Tarefas.png)
+
+✔️ Conclusão de Tarefa
+Este endpoint permite que o usuário responsável pela tarefa a marque como concluída. Caso outro usuário tente acessar, a API retorna erro de permissão (403 Forbidden).
+
+![Tarefas ](docs/Concluido.png)
+
 ## ⚙️ Instalação e execução local
 
 ```bash
