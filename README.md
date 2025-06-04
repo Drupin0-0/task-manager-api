@@ -23,9 +23,9 @@ Uma API REST construída com Django e Django REST Framework para gerenciamento d
 - SQLite (default para testes)
 
 ---
-
-![✅ Autenticação via JWT Token
-Este endpoint permite que o usuário faça login e receba um token de autenticação JWT, necessário para acessar os endpoints protegidos da API.](docs/token.png)
+✅ Autenticação via JWT Token
+Este endpoint permite que o usuário faça login e receba um token de autenticação JWT, necessário para acessar os endpoints protegidos da API.
+(docs/token.png)
 ## ⚙️ Instalação e execução local
 
 ```bash
