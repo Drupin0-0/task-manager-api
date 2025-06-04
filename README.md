@@ -39,3 +39,7 @@ python manage.py migrate
 python manage.py createsuperuser  # Para acessar o admin
 
 python manage.py runserver
+
+
+![✅ Autenticação via JWT Token
+Este endpoint permite que o usuário faça login e receba um token de autenticação JWT, necessário para acessar os endpoints protegidos da API.](docs/token.png)
